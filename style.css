@@ -45,6 +45,10 @@ body{
     width: 100px;
 }
 
+.mobile{
+    display: none;
+}
+
 .topMain{
     background-image: url(./assets/background\ \(1\).svg);
     background-repeat: no-repeat;
@@ -673,4 +677,156 @@ footer{
     /* or 22px */
     color: #474747;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 375px) {
+.topHeader{
+    flex-wrap: wrap;
+}
+
+.text{
+    flex-wrap: wrap;
+}
+
+.needGroup{
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: none;
+}
+
+.request-btn{
+    display: none;
+}
+
+.mobile{
+    display: flex;
+    margin-top: 5px;
+}
+
+.subHeader{
+    padding: 24px 18px 0px 0px;
+}
+
+.space{
+    flex-wrap: wrap;
+}
+
+.services{
+    padding: 40px 0px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    background: rgba(55, 55, 55, 0.79);
+    border-radius: 5px;
+    padding: 18px 38px 0px 35px;
+    margin: 40px 0px 0px 18px;
+    width: 340px;
+    height: 365px;
+}
+
+.main{
+    flex-wrap: wrap;
+    padding: 40px 18px 87px 18px;
+}
+
+.para1{
+    width: 335px;
+}
+
+.para2{
+    width: 335px;
+    margin-bottom: 40px;
+}
+
+.lightThing img{
+    width: 100%;
+}
+
+.servicesProvideCard{
+    flex-wrap: wrap;
+    padding: 0px 63px 144px 18px;
+    text-align: center;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+    padding: 29px 15px 10px 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 324px;
+    margin-left: 40px;
+}
+
+.bg-background{
+    padding: 10px 0px 10px 0px;
+    background-size: 3000px;
+}
+
+
+.howItWorks{
+    font-size: 40px;
+    line-height: 154.7%;
+}
+
+.location{
+    flex-wrap: wrap;
+}
+
+.pickH2{
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
+
+.smallPara{
+    margin-bottom: 5px;
+}
+
+.spaceTwo{
+    flex-wrap: wrap;
+    padding: 63px 0px 0px 0px;
+}
+
+.card2{
+    margin-bottom: 20px;
+}
+
+.groupImage img{
+    width: 100%;
+}
+
+.newsThings{
+    flex-wrap: wrap;
+}
+
+.readMore-btn{
+    padding: 8px 0px;
+    margin-bottom: 40px;
+}
+
+.bgImage2{
+    background-image: url(./assets/truck.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10px 0px 152px 0px;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 56px 0px;
+}
+.nav2{
+    margin-right: 75px;
+    margin-top: 10px;
+}
 }
