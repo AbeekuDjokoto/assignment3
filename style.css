@@ -681,12 +681,15 @@ footer{
 
 
 @media only screen and (max-width: 375px) {
+
 .topHeader{
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .text{
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .needGroup{
